@@ -1,0 +1,51 @@
+body{ 
+    background-color:rgb(93, 174, 255);
+    color:rgb(0, 0, 0)
+}
+
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:aliceblue  
+}
+
+nav{
+    height: 800px;
+    width: 150px;
+    float: left;
+    padding: 10px;
+    line-height: 50px;
+}
+
+footer{
+    position:fixed;
+    left: 50%;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    bottom: 0;
+}
+
+#memeImage{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 200px;
+    
+}
+
+header{
+    text-align:center;
+}
+
+a:hover{
+    color: red;
+}
+
+.btn{
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 900;
+    background-color: blueviolet;
+    color: aliceblue;
+    border-radius: 14px 12px 5px 5px;
+}
